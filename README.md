@@ -12,10 +12,10 @@ Firstly, the RS raster is automatically or manually segmented into multiple elem
 ## Datasets
 We conducted internal hyper-parameter tuning and external comparison with other OBIC methodson two VHR RS image datasets named Anhui dataset and Fujian dataset.
 ### Anhui dataset
-![](docs/ah_dataset.PNG)
+![](docs/ah_dataset.png)
 Containing DOM, GBS segmentation results and selected labeled objects in Anhui dataset.
 ### Fujian dataset
-![](docs/fj_dataset.PNG)
+![](docs/fj_dataset.png)
 Containing DOM, manual segmentation results and labeled objects in Fujian dataset.
 ### Download dataset
 You can download the **CVEO-OBIC-GCN-dataset** at [Baidu Netdisk](https://pan.baidu.com/s/1BdwPzNLYh2kg9I-iPwG-ww) (cveo), which contain the following contents:
@@ -82,7 +82,7 @@ Creating a new conda environment is recommended. Run this script like:
 | --svd  | Reduce dimensions (0 means no svd). **Default**: 0.  |
 |  --seed | Random seed.  **Default**: 123. |
 #### Run like:
-python obic.py --model gcn_cheby --npz data/ah/ah.npz --logfile details_ah_opSVD.log --resfile results_ah_opSVD.log --nodes 64 --layers 3 --dropout 0.3 --max_degree 1 --svd 0
+`python obic.py --model gcn_cheby --npz data/ah/ah.npz --logfile details_ah_opSVD.log --resfile results_ah_opSVD.log --nodes 64 --layers 3 --dropout 0.3 --max_degree 1 --svd 0`
 
 ###  svm.py (for LSVM, RBFSVM, MLP, NaiveBayes, XGBoost, RandomForest models)
 | Argument  | Details  |
@@ -94,7 +94,7 @@ python obic.py --model gcn_cheby --npz data/ah/ah.npz --logfile details_ah_opSVD
 | --svd  | Reduce dimensions (0 means no svd). **Default**: 0.  |
 |  --seed | Random seed.  **Default**: 12. |
 #### Run like:
-python svm.py --model randomforest --npz data/ah/ah.npz --resfile test.log --mode eval --pca 0
+`python svm.py --model randomforest --npz data/ah/ah.npz --resfile test.log --mode eval --pca 0`
 
 
 
