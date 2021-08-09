@@ -49,7 +49,7 @@ You can download the **CVEO-OBIC-GCN-dataset** at [Baidu Netdisk](https://pan.ba
 	xgboost = 1.4.0
 #### Install with Conda-forge
 Creating a new conda environment is recommended. Run this script like:
-`conda create -n gcn python=3.7 gdal tensorflow=1.13.1 tqdm scikit-image pillow scipy xgboost -c conda-forg
+`conda create -n gcn python=3.7 gdal tensorflow=1.13.1 tqdm scikit-image pillow scipy xgboost -c conda-forge
 `
 
 ## Contents of Directory
