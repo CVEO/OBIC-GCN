@@ -1,5 +1,7 @@
 # OBIC-GCN
 
+English| [简体中文](./README-zh_CN.md) 
+
 Open-source codes and annotated datasets in our recent work ["Object-based Classification Framework of Remote Sensing Images with Graph Convolutional Networks"](https://ieeexplore.ieee.org/document/9411513) on [IEEE Geoscience and Remote Sensing Letters](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8859).
 
 ## Abstract
@@ -40,7 +42,7 @@ You can download the **CVEO-OBIC-GCN-dataset** at [Baidu Netdisk](https://pan.ba
 #### Requirement
     python = 3.7.1
 	gdal = 2.3.2
-    numpy = 1.19.1
+	numpy = 1.19.1
 	tensorflow = 1.13.1
 	scikit-image = 0.18.2
 	scikit-learn = 0.24.2
@@ -48,7 +50,7 @@ You can download the **CVEO-OBIC-GCN-dataset** at [Baidu Netdisk](https://pan.ba
 	scipy = 1.7.1
 	xgboost = 1.4.0
 #### Install with Conda-forge
-Creating a new conda environment is recommended. Run this script like:
+Creating a new conda environment is recommended (tested on Windows 10). Run this script like:
 `conda create -n gcn python=3.7 gdal tensorflow=1.13.1 tqdm scikit-image pillow scipy xgboost -c conda-forge
 `
 
@@ -68,7 +70,7 @@ Creating a new conda environment is recommended. Run this script like:
 | Argument  | Details  |
 | ------------ | ------------ |
 |  --model | Select training model from 'gcn', 'gcn_cheby', 'dense'. **Default**: gcn |
-| -npz  | Input npz data. **Required**. |
+| --npz  | Input npz data. **Required**. |
 | --logfile |  Training log file. **Required**. |
 |  --resfile |  Output  evaluation result file. **Required**. |
 | --learning_rate  | Initial learning rate. **Default**: 0.01. |
@@ -88,7 +90,7 @@ Creating a new conda environment is recommended. Run this script like:
 | Argument  | Details  |
 | ------------ | ------------ |
 |  --model | Select training model from 'lsvm', 'rbfsvm', 'mlp', 'nb', 'xgboost', 'randomforest'. **Default**: lsvm |
-| -npz  | Input npz data. **Required**. |
+| --npz  | Input npz data. **Required**. |
 |  --resfile |  Output  evaluation result file. **Required**. |
 | --pca  | Reduce dimensions (0 means no pca). **Default**: 0.  |
 | --svd  | Reduce dimensions (0 means no svd). **Default**: 0.  |
@@ -105,7 +107,7 @@ Creating a new conda environment is recommended. Run this script like:
 4. Run `python obic.py` or `python svm.py` with the above arguments to start training and conduct validation.
 
 
-## Citation
+## Cite this work
 Please consider citing the following article if you used this project in your research.
 
     @ARTICLE{9411513,
@@ -118,7 +120,11 @@ Please consider citing the following article if you used this project in your re
       pages={1-5},
       doi={10.1109/LGRS.2021.3072627}
     }
+    
+## Reference
+[https://github.com/tkipf/gcn](https://github.com/tkipf/gcn)
 
+[sklearn.decomposition.TruncatedSVD](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.TruncatedSVD.html)
 
 ## License
 Licensed under an MIT license.
