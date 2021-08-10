@@ -1,6 +1,6 @@
 # OBIC-GCN
 
-English| [简体中文](./README-zh_CN.md) 
+English | [简体中文](./README-zh_CN.md) 
 
 Open-source codes and annotated datasets in our recent work ["Object-based Classification Framework of Remote Sensing Images with Graph Convolutional Networks"](https://ieeexplore.ieee.org/document/9411513) on [IEEE Geoscience and Remote Sensing Letters](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8859).
 
@@ -12,7 +12,7 @@ Firstly, the RS raster is automatically or manually segmented into multiple elem
 ![](docs/obic-procedure.PNG)
 
 ## Datasets
-We conducted internal hyper-parameter tuning and external comparison with other OBIC methodson two VHR RS image datasets named Anhui dataset and Fujian dataset.
+We conducted internal hyper-parameter tuning and external comparison with other OBIC methods on two VHR RS image datasets named Anhui dataset and Fujian dataset.
 ### Anhui dataset
 ![](docs/ah_dataset.png)
 Containing DOM, GBS segmentation results and selected labeled objects in Anhui dataset.
