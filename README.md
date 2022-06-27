@@ -110,15 +110,15 @@ Creating a new conda environment is recommended (tested on Windows 10). Run this
 ## Cite this work
 Please consider citing the following article if you used this project in your research.
 
-@ARTICLE{9411513,
-  author={Zhang, Xiaodong and Tan, Xiaoliang and Chen, Guanzhou and Zhu, Kun and Liao, Puyun and Wang, Tong},
-  journal={IEEE Geoscience and Remote Sensing Letters}, 
-  title={Object-Based Classification Framework of Remote Sensing Images With Graph Convolutional Networks}, 
-  year={2022},
-  volume={19},
-  number={},
-  pages={1-5},
-  doi={10.1109/LGRS.2021.3072627}}
+	@ARTICLE{9411513,
+	  author={Zhang, Xiaodong and Tan, Xiaoliang and Chen, Guanzhou and Zhu, Kun and Liao, Puyun and Wang, Tong},
+	  journal={IEEE Geoscience and Remote Sensing Letters}, 
+	  title={Object-Based Classification Framework of Remote Sensing Images With Graph Convolutional Networks}, 
+	  year={2022},
+	  volume={19},
+	  number={},
+	  pages={1-5},
+	  doi={10.1109/LGRS.2021.3072627}}
     
 ## Reference
 [https://github.com/tkipf/gcn](https://github.com/tkipf/gcn)
