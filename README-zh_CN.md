@@ -109,16 +109,15 @@
 ## 引用本文
 如果您在研究中使用了该项目，请引用以下文章。
 
-    @ARTICLE{9411513,
-      author={Zhang, Xiaodong and Tan, Xiaoliang and Chen, Guanzhou and Zhu, Kun and Liao, Puyun and Wang, Tong},
-      journal={IEEE Geoscience and Remote Sensing Letters}, 
-      title={Object-Based Classification Framework of Remote Sensing Images With Graph Convolutional Networks}, 
-      year={2021},
-      volume={},
-      number={},
-      pages={1-5},
-      doi={10.1109/LGRS.2021.3072627}
-    }
+@ARTICLE{9411513,
+  author={Zhang, Xiaodong and Tan, Xiaoliang and Chen, Guanzhou and Zhu, Kun and Liao, Puyun and Wang, Tong},
+  journal={IEEE Geoscience and Remote Sensing Letters}, 
+  title={Object-Based Classification Framework of Remote Sensing Images With Graph Convolutional Networks}, 
+  year={2022},
+  volume={19},
+  number={},
+  pages={1-5},
+  doi={10.1109/LGRS.2021.3072627}}
     
 ## 参考项目
 [https://github.com/tkipf/gcn](https://github.com/tkipf/gcn)
